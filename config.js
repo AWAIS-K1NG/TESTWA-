@@ -3,11 +3,11 @@ import { getCreds } from './credits.js'
 
 const creds = await getCreds()
 
-export const TELEGRAM_BOT_TOKEN = ''; // bot telegram token
+export const TELEGRAM_BOT_TOKEN = '7997742652:AAE1OJ5sfkeDGRlLOsWB53YDyVwYvd7yGdg'; // bot telegram token
 
 export const REDIRECT_BOT = "" // a redirect bot when the bot is full
 
-export const OWNER_ID = "7879830646" // owner id
+export const OWNER_ID = "6542862321" // owner id
 
 export const LIMIT = 30; //number of max sessions for the tele bot
 
@@ -28,5 +28,4 @@ export const TELEGRAM_CHANNEL = creds.telegram_channel // Your telegram channel 
 export const TELEGRAM_GROUP = creds.telegram_group // Your telegram group name
 
 export const WA_CHANNEL = creds.wa_channel //whatsapp channel
-
 
